@@ -44,7 +44,7 @@ public class YouTubePlayerController implements
             mYouTubePlayer.setPlaybackEventListener(this);
 
             // Update config
-            mYouTubePlayer.setShowFullscreenButton(fullscreen);
+            mYouTubePlayer.setShowFullscreenButton(false);
 
             mYouTubePlayer.setFullscreen(true);
             updateControls();
@@ -237,7 +237,7 @@ public class YouTubePlayerController implements
     public void setFullscreen(boolean fullscreen) {
         this.fullscreen = fullscreen;
         if (isLoaded()) {
-            mYouTubePlayer.setShowFullscreenButton(fullscreen);
+            mYouTubePlayer.setShowFullscreenButton(false);
         }
     }
 
