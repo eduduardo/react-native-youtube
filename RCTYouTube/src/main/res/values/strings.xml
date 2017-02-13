@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_no_api_key">Error authenticating against YouTube API</string>
+    <string name="error_init_failure">Unable to play video</string>
+    <string name="error_video_does_not_exist">This video does not exist</string>
+</resources>
