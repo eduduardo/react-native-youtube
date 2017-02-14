@@ -113,7 +113,7 @@ public class YouTubeActivity extends YouTubeBaseActivity implements YouTubePlaye
 
     @Override
     public void onInitializationSuccess (YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean isRestored) {
-        youTubePlayer.setPlayerStyle(PlayerStyle.MINIMAL);
+        youTubePlayer.setPlayerStyle(PlayerStyle.DEFAULT);
 
         if (videoId != null) {
             if (isRestored) {
