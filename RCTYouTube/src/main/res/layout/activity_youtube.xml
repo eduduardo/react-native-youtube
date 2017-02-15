@@ -5,7 +5,18 @@
               android:orientation="vertical"
               android:background="#000000">
 
-    <TextView android:id="@+id/titleTextView" style="@style/title_style" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/backButton"
+            style="@style/back_button_style"
+            android:onClick="goBack" />
+
+        <TextView android:id="@+id/titleTextView" style="@style/title_style" />
+    </LinearLayout>
+
 
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youTubePlayerView"

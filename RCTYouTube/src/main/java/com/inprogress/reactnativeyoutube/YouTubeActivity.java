@@ -111,6 +111,10 @@ public class YouTubeActivity extends YouTubeBaseActivity implements YouTubePlaye
         }
     }
 
+    public void goBack (View view) {
+        finish();
+    }
+
     @Override
     public void onInitializationSuccess (YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean isRestored) {
         if (videoId != null) {
